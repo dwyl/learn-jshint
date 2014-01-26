@@ -20,26 +20,30 @@ If you're completely new to JSHint read: http://jshint.com/about/
 
 ## Why?
 
-- To make your code consistently awesome. <br />
-- Ensure that everyone on your team writes similar (maintainable) code <br />
-- 
+1. To make your own code consistently awesome.
+2. Ensure that *everyone* on your team writes similar (*maintainable*) code
+3. See *immediately* if code (quality) gets worse (and *remedy* it!)
 
 ## How?
 
+### jshint.com
 
-
-
+You *can* simply paste your code into the input area on http://jshint.com/
+But that gets tedious after a few goes. You need a more robust (and
+*automatic*) way of checking your code e.g. every time you save.
 
 ### Sublime Text Plugin
 
-You will need to have 
+Once you have [SublimeText](http://www.sublimetext.com/) *installed*.
 
-First install **Package Control**
+Install **Package Control** (if you don't already have it)
 https://sublime.wbond.net/installation#st2
 [ follow their installation instructions ]
 
 
-### Add CodeClimate to your Project
+
+
+### Add CodeClimate to your Project [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
 
 To confirm that your code quality is consistent, add CodeClimate to
 your project: https://codeclimate.com/tour/trends
