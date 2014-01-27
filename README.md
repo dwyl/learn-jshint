@@ -99,7 +99,25 @@ These are JSHint warnings because the code does not conform to the definitions
 we set in our **.jshintrc** file above. Namely there is a **==** on line 2
 and the second conditional (if) statmente is not wrapped in curly braces.
 
-we can easily fix the code:
+Additionally line 3 is flagged because it does not end with a semicolon.
+
+We can *easily* fix the code:
+
+```javascript
+var test = true;
+if(test === true) {
+	console.log("JSHint Should Flag this double equals...");
+}
+
+if(test === false) {
+	console.log('and it should spot the lack of curly braces here...');
+}
+```
+
+![Imgur](http://i.imgur.com/HqqrTpo.png "no more jshint errors")
+
+Now you know how to use jshint. 
+Go forth and make your JavaScript Awesome!
 
 
 
@@ -112,7 +130,6 @@ or want to add it to your exisiting build system:
 ```
 sudo npm install jshint -g
 ```
-
 	
 
 ## Further Reading
