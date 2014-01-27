@@ -26,7 +26,7 @@ parts of JS <br />
 *However* ... many developers find Crockford's JSLint to be 
 ***too restrictive*** and ***opinionated*** 
 
-Read the discussion on StackOverflow:
+Read the discussion on StackOverflow: <br />
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
 
 And so **JSHint** was Born! A ***fork** from JSLint, JShint allows developers
@@ -46,6 +46,10 @@ Docs: http://www.jshint.com/docs/
 
 
 ### Sublime Text Plugin
+
+*All* the kids are using SublimeText these days. <br />
+if you prefer a different editor/ide, 
+check out: http://www.jshint.com/install/
 
 Once you have [SublimeText](http://www.sublimetext.com/) *installed*.
 
@@ -125,17 +129,6 @@ Now SublimeLinter will no longer display any errors:
 Now you *know* how to use jshint. 
 Go forth and make your JavaScript Awesome! :-)
 
-
-
-
-### Command Line
-
-If you just want to use JSHint on the command line,
-or want to add it to your exisiting build system:
-
-```
-sudo npm install jshint -g
-```
 	
 
 ## Further Reading
@@ -144,14 +137,6 @@ sudo npm install jshint -g
 - JSHint Strict Edition: https://gist.github.com/haschek/2595796
 - How to use jslint in node.js projects: https://coderwall.com/p/-h1h1w
 - http://blog.teamtreehouse.com/improving-code-quality-jshint
-
-
-### [*Future*] Other Editors
-
-> *Most* Other Editors/IDEs have a similar plugin: 
-> see: http://www.jshint.com/docs/options/
-> I intend to move all my editing to Cloud9 (or similar) soon
-> and will update this tutorial when that happens.
 
 
 ## Top Tip: Add *CodeClimate* to your Project 
