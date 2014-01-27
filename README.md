@@ -3,6 +3,12 @@ learn-jshint [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshi
 
 Learn how to use the jshint code quality/consistency tool.
 
+## Why?
+
+1. To make your code consistently awesome.
+2. Ensure that *everyone* on your team writes similar (*maintainable*) code
+3. See *immediately* if code (quality) gets worse (and *remedy* it!)
+
 ## What?
 
 If you're **completely new** to JSHint *read*: http://jshint.com/about
@@ -23,12 +29,10 @@ parts of JS <br />
 Read the discussion on StackOverflow:
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
 
+And so **JSHint** was Born! A ***fork** from JSLint, JShint allows developers
+to be more pragmatic about which rules they follow by allowing us to 
+*define* our own set of rules (see below)
 
-## Why?
-
-1. To make your code consistently awesome.
-2. Ensure that *everyone* on your team writes similar (*maintainable*) code
-3. See *immediately* if code (quality) gets worse (and *remedy* it!)
 
 ## How?
 
