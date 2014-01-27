@@ -84,6 +84,9 @@ surrounded with curly braces.
 - **eqeqeq** prohibits the use of == and !=, 
 instead developers should use === and !==
 
+For the **full list** of **JSHint options** see:
+http://www.jshint.com/docs/options/
+
 ### Sample JavaScript File
 
 now create your JS file **example.js** and paste in some *un-linted* code:
