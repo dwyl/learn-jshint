@@ -1,27 +1,27 @@
-learn-jshint
+learn-jshint [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
 ============
 
 Learn how to use the jshint code quality/consistency tool.
 
 ## What?
 
-If you're completely new to JSHint read: http://jshint.com/about/
+If you're **completely new** to JSHint *read*: http://jshint.com/about
 
 
-If you have writen JavaScript code professionally you will have come accross 
+If you have writen JavaScript code professionally <br />
+you will know about 
 [The Good Parts](http://javascript.crockford.com/) by **Douglas Crockford**.
 
 To *encourage* people to *only* use the predictable & well behaved ("good")
-parts of JS, <br />
+parts of JS <br />
 [Crockford](https://github.com/douglascrockford) developed the
-[JSLint](http://www.jslint.com/) code quality tool.~~
+[JSLint](http://www.jslint.com/) code quality tool.
 
 *However* ... many developers find Crockford's JSLint to be 
 ***too restrictive*** and ***opinionated*** 
 
-See:
+Read the discussion on StackOverflow:
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
-for the discussion.
 
 
 ## Why?
@@ -34,7 +34,7 @@ for the discussion.
 
 ### jshint.com
 
-You *can* simply paste your code into the input area on http://jshint.com/
+You *can* simply *paste* your code into the input area on http://jshint.com/
 But that gets tedious after a few goes. You need a more robust (and
 *automatic*) way of checking your code e.g. every time you save.
 
@@ -46,7 +46,7 @@ Docs: http://www.jshint.com/docs/
 Once you have [SublimeText](http://www.sublimetext.com/) *installed*.
 
 Install **Package Control** (if you don't already have it)
-https://sublime.wbond.net/installation#st2
+https://sublime.wbond.net/installation#st2 <br />
 [ follow their installation instructions ]
 
 *Next* install **SublimeLinter** 
@@ -54,16 +54,16 @@ https://github.com/SublimeLinter/SublimeLinter
 
 Inside SublimeText click: Tools > **Command Palette**
 
-Type (or paste): **Package Control: Install Package**
+Type (or paste): **Package Control: Install Package** <br />
 into the Command Palette and wait for SublimeText 
 to update the list of packages.
 
-Now you can paste: SublimeLinter into the 
-Command Palette to install the linter.
+Now you can *paste*: **SublimeLinter** into the 
+Command Palette to install the Linter.
 
 ### Create a .jshintrc (JSHint Configuration) File
 
-Create a file called **.jshintrc** in your project directory
+Next *create* a file called **.jshintrc** in your project directory
 and *paste* this sample configuration.
 
 {
@@ -78,7 +78,7 @@ instead developers should use === and !==
 
 ### Sample JavaScript File
 
-now create your JS file **example.js** and paste in some un-linted code:
+now create your JS file **example.js** and paste in some *un-linted* code:
 
 ```javascript
 var test = true;
@@ -114,10 +114,12 @@ if(test === false) {
 }
 ```
 
+Now SublimeLinter will no longer display any errors:
+
 ![Imgur](http://i.imgur.com/HqqrTpo.png "no more jshint errors")
 
-Now you know how to use jshint. 
-Go forth and make your JavaScript Awesome!
+Now you *know* how to use jshint. 
+Go forth and make your JavaScript Awesome! :-)
 
 
 
@@ -148,7 +150,7 @@ sudo npm install jshint -g
 > and will update this tutorial when that happens.
 
 
-## Top Tip: Add CodeClimate to your Project [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
+## Top Tip: Add *CodeClimate* to your Project 
 
 To *confirm* that your code quality is consistent, and *track* quality over time,
 add CodeClimate to your project: https://codeclimate.com/tour/trends
