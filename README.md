@@ -1,11 +1,10 @@
 Learn JSHint [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
 ============
 
-If want to *avoid* this kind of situation:
+!["Software Bugs"](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/80000/4000/500/84511/84511.strip.sunday.gif "Software Bugs")
 
-!["No Worky"](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/80000/5000/100/85109/85109.strip.gif "Software No Worky")
-
-Learn how to use the jshint to check your JavaScript code quality.
+Want to avoid bugs in your JavaScript code? <br />
+Use jshint to automatically check your JavaScript code quality.
 
 ## Why?
 
