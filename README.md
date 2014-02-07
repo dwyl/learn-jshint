@@ -1,4 +1,4 @@
-learn-jshint [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
+Learn JSHint [![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint)
 ============
 
 Learn how to use the jshint code quality/consistency tool.
@@ -10,9 +10,6 @@ Learn how to use the jshint code quality/consistency tool.
 3. See *immediately* if code (quality) gets worse (and *remedy* it!)
 
 ## What?
-
-If you're **completely new** to JSHint *read*: http://jshint.com/about
-
 
 If you have writen JavaScript code professionally <br />
 you will know about 
@@ -29,9 +26,11 @@ parts of JS <br />
 Read the discussion on StackOverflow: <br />
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
 
-And so **JSHint** was Born! A ***fork** from JSLint, JShint allows developers
+And so **JSHint** was Born! A ***fork*** from JSLint, JShint allows developers
 to be more pragmatic about which rules they follow by allowing us to 
 *define* our own set of rules (see below)
+
+For a more *detailed introduction* to **JSHint**: http://jshint.com/about
 
 
 ## How?
