@@ -55,6 +55,16 @@ If you have made the switch to [Atom](https://atom.io) you can install the
 
 ![Atom Preferences - Install Linter](http://i.imgur.com/FKGVciq.png)
 
+Once the plugin has installed click on **settings**
+
+![Atom Pref - click linter settings](http://i.imgur.com/ED2Jnyo.png)
+
+In addition to the linter you need to select the language you want Atom to lint.
+In our case its JavaScript so in the packages interface search for:
+**linter-jshint**
+
+![linter-jshint](http://i.imgur.com/YEO2CJa.png)
+
 
 ### Sublime Text Plugin
 
