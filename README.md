@@ -14,8 +14,7 @@ Use jshint to automatically check your JavaScript code quality.
 
 ## What?
 
-If you have writen JavaScript code professionally <br />
-you will know about
+If you have writen JavaScript code *professionally* you will know about
 [The Good Parts](http://javascript.crockford.com/) by **Douglas Crockford**.
 
 To *encourage* people to *only* use the predictable & well behaved ("good")
@@ -24,7 +23,7 @@ parts of JS <br />
 [JSLint](http://www.jslint.com/) code quality tool.
 
 *However* ... many developers find Crockford's JSLint to be
-***too restrictive*** and ***opinionated***
+***too restrictive*** and "***opinionated***"
 
 Read the discussion on StackOverflow: <br />
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
@@ -49,9 +48,9 @@ Docs: http://www.jshint.com/docs/
 
 ### [Atom](https://atom.io) Editor Linter Plugin
 
-If you have made the switch to [Atom](https://atom.io) you can install the
-[Linter Plugin](https://atom.io/packages/linter) by opening your **preferences**
-(Click: Atom > Preferences or **&#x2318;** + **,**)
+Once you have made the switch to [Atom](https://atom.io) Editor you can
+install the [Linter Plugin](https://atom.io/packages/linter) by opening your
+**preferences** <br/> (Click: Atom > Preferences *or* **&#x2318;** + **,**)
 
 ![Atom Preferences - Install Linter](http://i.imgur.com/FKGVciq.png)
 
@@ -59,20 +58,24 @@ Once the plugin has installed click on **settings**
 
 ![Atom Pref - click linter settings](http://i.imgur.com/ED2Jnyo.png)
 
-In addition to the linter you need to select the language you want Atom to lint.
+In addition to the linter you need to select the language you want
+Atom to lint. <br />
 In our case its JavaScript so in the packages interface search for:
 **linter-jshint**
 
 ![linter-jshint](http://i.imgur.com/YEO2CJa.png)
 
+Now when ever your code has issues you will see a "dot" on the line.
+Simply correct it and continue coding! :-)
 
-### Sublime Text Plugin
+![atom linter-jshint showing error messages](http://i.imgur.com/I5qJquA.png)
 
-*All* the kids are using SublimeText these days. <br />
-if you prefer a different editor/ide,
-check out: http://www.jshint.com/install/
 
-Once you have [SublimeText](http://www.sublimetext.com/) *installed*.
+### SublimeText Plugin
+
+If you are still using [SublimeText](http://www.sublimetext.com/)
+there is a good JSHint package you can use.
+
 
 Install **Package Control** (if you don't already have it)
 https://sublime.wbond.net/installation#st2 <br />
@@ -94,12 +97,12 @@ Command Palette to install the Linter.
 
 Next *create* a file called **.jshintrc** in your project directory
 and *paste* this sample configuration.
-
+```
 {
   "curly": true,
   "eqeqeq": true
 }
-
+```
 - **curly** enforces that all code blocks should *always* be
 surrounded with curly braces.
 - **eqeqeq** prohibits the use of == and !=,
