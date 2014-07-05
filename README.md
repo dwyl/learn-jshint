@@ -15,7 +15,7 @@ Use jshint to automatically check your JavaScript code quality.
 ## What?
 
 If you have writen JavaScript code professionally <br />
-you will know about 
+you will know about
 [The Good Parts](http://javascript.crockford.com/) by **Douglas Crockford**.
 
 To *encourage* people to *only* use the predictable & well behaved ("good")
@@ -23,14 +23,14 @@ parts of JS <br />
 [Crockford](https://github.com/douglascrockford) developed the
 [JSLint](http://www.jslint.com/) code quality tool.
 
-*However* ... many developers find Crockford's JSLint to be 
-***too restrictive*** and ***opinionated*** 
+*However* ... many developers find Crockford's JSLint to be
+***too restrictive*** and ***opinionated***
 
 Read the discussion on StackOverflow: <br />
 http://stackoverflow.com/questions/6803305/should-i-use-jslint-or-jshint-javascript-validation
 
 And so **JSHint** was Born! A ***fork*** from JSLint, JShint allows developers
-to be more pragmatic about which rules they follow by allowing us to 
+to be more pragmatic about which rules they follow by allowing us to
 *define* our own set of rules (see below)
 
 For a more *detailed introduction* to **JSHint**: http://jshint.com/about
@@ -47,10 +47,19 @@ But that gets tedious after a few goes. You need a more robust (and
 Docs: http://www.jshint.com/docs/
 
 
+### [Atom](https://atom.io) Editor Linter Plugin
+
+If you have made the switch to [Atom](https://atom.io) you can install the
+[Linter Plugin](https://atom.io/packages/linter) by opening your **preferences**
+(Click: Atom > Preferences or **&#x2318;** + **,**)
+
+![Atom Preferences - Install Linter](http://i.imgur.com/FKGVciq.png)
+
+
 ### Sublime Text Plugin
 
 *All* the kids are using SublimeText these days. <br />
-if you prefer a different editor/ide, 
+if you prefer a different editor/ide,
 check out: http://www.jshint.com/install/
 
 Once you have [SublimeText](http://www.sublimetext.com/) *installed*.
@@ -59,16 +68,16 @@ Install **Package Control** (if you don't already have it)
 https://sublime.wbond.net/installation#st2 <br />
 [ follow their installation instructions ]
 
-*Next* install **SublimeLinter** 
+*Next* install **SublimeLinter**
 https://github.com/SublimeLinter/SublimeLinter
 
 Inside SublimeText click: Tools > **Command Palette**
 
 Type (or paste): **Package Control: Install Package** <br />
-into the Command Palette and wait for SublimeText 
+into the Command Palette and wait for SublimeText
 to update the list of packages.
 
-Now you can *paste*: **SublimeLinter** into the 
+Now you can *paste*: **SublimeLinter** into the
 Command Palette to install the Linter.
 
 ### Create a .jshintrc (JSHint Configuration) File
@@ -81,9 +90,9 @@ and *paste* this sample configuration.
   "eqeqeq": true
 }
 
-- **curly** enforces that all code blocks should *always* be 
+- **curly** enforces that all code blocks should *always* be
 surrounded with curly braces.
-- **eqeqeq** prohibits the use of == and !=, 
+- **eqeqeq** prohibits the use of == and !=,
 instead developers should use === and !==
 
 For the **full list** of **JSHint options** see:
@@ -108,7 +117,7 @@ You should expect to see something like this:
 ![Imgur](http://i.imgur.com/NE1fEDq.png "JSHint warnings on lines 2,3 & 7")
 
 Notice how lines 2, 3 and 7 have a red circle with an exclamation mark in them?
-These are JSHint warnings because the code does not conform to the definitions 
+These are JSHint warnings because the code does not conform to the definitions
 we set in our **.jshintrc** file above. Namely there is a **==** on line 2
 and the second conditional (if) statmente is not wrapped in curly braces.
 
@@ -131,10 +140,10 @@ Now SublimeLinter will no longer display any errors:
 
 ![Imgur](http://i.imgur.com/HqqrTpo.png "no more jshint errors")
 
-Now you *know* how to use jshint. 
+Now you *know* how to use jshint.
 Go forth and make your JavaScript Awesome! :-)
 
-	
+
 
 ## Further Reading
 
@@ -144,7 +153,7 @@ Go forth and make your JavaScript Awesome! :-)
 - http://blog.teamtreehouse.com/improving-code-quality-jshint
 
 
-## Top Tip: Add *CodeClimate* to your Project 
+## Top Tip: Add *CodeClimate* to your Project
 
 To *confirm* that your code quality is consistent, and *track* quality over time,
 add CodeClimate to your project: https://codeclimate.com/tour/trends

@@ -1,5 +1,5 @@
 var test = true;
-if(test === true) {
+if(test == true) {
 	console.log("JSHint Should Flag this double equals...");
 }
 
