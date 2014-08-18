@@ -93,6 +93,23 @@ to update the list of packages.
 Now you can *paste*: **SublimeLinter** into the
 Command Palette to install the Linter.
 
+## Other Editors
+
+### WebStorm ?
+
+> See: http://www.jetbrains.com/webstorm/webhelp/jshint.html
+
+### Eclipse ?
+
+> See: http://github.eclipsesource.com/jshint-eclipse/install.html
+
+### IntelliJ Idea ?
+
+> See: http://blog.jetbrains.com/idea/2012/05/lint-your-javascript-with-jslintjshint-in-real-time/
+
+
+
+
 ### Create a .jshintrc (JSHint Configuration) File
 
 Next *create* a file called **.jshintrc** in your project directory
@@ -157,13 +174,13 @@ Now you *know* how to use jshint.
 Go forth and make your JavaScript Awesome! :-)
 
 
-
 ## Further Reading
 
 - **Full List** of JSHint Options: http://www.jshint.com/docs/options/
 - JSHint Strict Edition: https://gist.github.com/haschek/2595796
 - How to use jslint in node.js projects: https://coderwall.com/p/-h1h1w
 - http://blog.teamtreehouse.com/improving-code-quality-jshint
+
 
 
 ## Top Tip: Add *CodeClimate* to your Project
