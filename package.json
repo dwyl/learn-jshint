@@ -1,0 +1,22 @@
+{
+  "name": "learn-jshint",
+  "version": "0.0.1",
+  "description": "jshint tutorial",
+  "main": "example.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelsonic/learn-jshint.git"
+  },
+  "keywords": [
+    "jshint"
+  ],
+  "author": "nelsonic <nodecoder@gmail.com> (https://github.com/nelsonic)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-jshint/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-jshint"
+}
