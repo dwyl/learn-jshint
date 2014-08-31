@@ -1,4 +1,5 @@
 {
   "curly": true,
-  "eqeqeq": true
+  "eqeqeq": true,
+  "indent": 4
 }
