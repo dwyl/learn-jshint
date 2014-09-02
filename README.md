@@ -45,6 +45,27 @@ But that gets tedious after a few goes. You need a more robust (and
 
 Docs: http://www.jshint.com/docs/
 
+### Command LIne
+
+Install the **jshint** node.js module:
+```
+npm intstall jshint -g
+```
+
+Run the command:
+
+```sh
+jshint
+```
+(this runs the **jshint** command over *all* the files in the current working directory)
+
+
+Want to use a specific configuration file and exlude everything in your .gitignore file? 
+```
+jshint -c .jshintrc --exclude-path .gitignore .
+```
+
+
 
 ### [Atom](https://atom.io) Editor Linter Plugin
 
