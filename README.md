@@ -1,10 +1,10 @@
 Learn JSHint
 ============
 
-!["Software Bugs"](http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/000000/80000/4000/500/84511/84511.strip.sunday.gif "Software Bugs")
+![code quality cartoon](http://i.imgur.com/IC3cJde.png "code quality cartoon")
 
-Want to avoid bugs in your JavaScript code? <br />
-Use jshint to automatically check your JavaScript code quality.
+Want to reduce bugs in your JavaScript code? <br />
+Use jshint to **automatically** check your JavaScript code.
 
 ## Why?
 
