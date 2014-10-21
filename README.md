@@ -65,6 +65,13 @@ Want to use a specific configuration file and exlude everything in your .gitigno
 jshint -c .jshintrc --exclude-path .gitignore .
 ```
 
+### Pre-commit Hooks
+
+Pre-commit Hooks *prevent* people from commiting un-linted code!
+So sloppy code never leaves the lazy developer's machine and your Git repo is always clean & tidy!
+
+This deserved its own tutorial: https://github.com/nelsonic/learn-pre-commit 
+
 
 
 ### [Atom](https://atom.io) Editor Linter Plugin
