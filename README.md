@@ -111,7 +111,7 @@ You can install another pluging called **Interactive Linter** <br/>
 
 ![Interactive Linter](http://i.imgur.com/PcvLitA.png)
 
-This will show lightbulbs next to any errors you make. 
+This will show lightbulbs next to any errors you make!
 
 ![Demo](http://i.imgur.com/Von1N9k.png)
 
