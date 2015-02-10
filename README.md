@@ -99,6 +99,23 @@ Simply correct it and continue coding! :-)
 ![atom linter-jshint showing error messages](http://i.imgur.com/I5qJquA.png)
 
 
+### [Brackets](http://brackets.io/) Editor
+
+If you use the open source Adobe Brackets text editor, you can install **JSHint** <br/> by going into **Extensions Manager** </br> on the top right hand side, and search for **JSHint** <br/>
+
+![JSHint](http://i.imgur.com/yFyBRTM.png)
+
+This will show you hints at the bottom of the editor but you can go one step further!
+
+You can install another pluging called **Interactive Linter** <br/>
+
+![Interactive Linter](http://i.imgur.com/PcvLitA.png)
+
+This will show lightbulbs next to any errors you make. 
+
+![Demo](http://i.imgur.com/Von1N9k.png)
+
+
 ### SublimeText Plugin
 
 If you are still using [SublimeText](http://www.sublimetext.com/)
