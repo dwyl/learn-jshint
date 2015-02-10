@@ -129,7 +129,7 @@ Command Palette to install the Linter.
 
 ### Eclipse ?
 
-> See: http://github.eclipsesource.com/jshint-eclipse/install.html
+> See: http://github.eclipsesource.com/jshint-eclipse/install.html and https://github.com/angelozerr/tern.java/wiki/Tern-Linter
 
 ### IntelliJ Idea ?
 
