@@ -234,4 +234,5 @@ To *confirm* that your code quality is consistent, and *track* quality over time
 add CodeClimate to your project: https://codeclimate.com/tour/trends
 [free for Open Source GitHub projects](https://codeclimate.com/github/signup)
 
-[![Code Climate](https://codeclimate.com/github/nelsonic/learn-jshint.png)](https://codeclimate.com/github/nelsonic/learn-jshint) [![Build Status](https://travis-ci.org/nelsonic/learn-jshint.svg?branch=master)](https://travis-ci.org/nelsonic/learn-jshint)
+[![Code Climate](https://codeclimate.com/github/docdis/learn-jshint.png)](https://codeclimate.com/github/docdis/learn-jshint) 
+[![Build Status](https://travis-ci.org/docdis/learn-jshint.svg?branch=master)](https://travis-ci.org/docdis/learn-jshint)
