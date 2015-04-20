@@ -35,7 +35,7 @@ to be more pragmatic about which rules they follow by allowing us to
 For a more *detailed introduction* to **JSHint**: http://jshint.com/about
 
 
-## How
+## How?
 
 ### jshint.com
 
@@ -45,7 +45,7 @@ But that gets tedious after a few goes. You need a more robust (and
 
 Docs: http://www.jshint.com/docs/
 
-### Command LIne
+### Command Line
 
 Install the **jshint** node.js module:
 ```
