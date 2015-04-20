@@ -35,7 +35,7 @@ to be more pragmatic about which rules they follow by allowing us to
 For a more *detailed introduction* to **JSHint**: http://jshint.com/about
 
 
-## How
+## How?
 
 ### jshint.com
 
@@ -45,7 +45,7 @@ But that gets tedious after a few goes. You need a more robust (and
 
 Docs: http://www.jshint.com/docs/
 
-### Command LIne
+### Command Line
 
 Install the **jshint** node.js module:
 ```
@@ -172,6 +172,24 @@ instead developers should use === and !==
 
 For the **full list** of **JSHint options** see:
 http://www.jshint.com/docs/options/
+
+If you are using ***Jasmine*** or ***Mocha*** testing framework you may see this warnings:
+
+	test/foo.test.js: line 10, col 1, 'describe' is not defined.
+	test/foo.test.js: line 12, col 5, 'before' is not defined.
+	test/foo.test.js: line 25, col 5, 'it' is not defined.
+	test/foo.test.js: line 43, col 5, 'beforeEach' is not defined.
+	test/foo.test.js: line 54, col 5, 'after' is not defined.
+	test/foo.test.js: line 83, col 5, 'afterEach' is not defined.
+
+This means you need to let JSHint know about your **[testing enviorment](http://jshint.com/docs/options/#environments)**.
+In order to do so add to your **.jshintrc** file:
+```
+{
+  "mocha": true,
+  "jasmine": true
+}
+```
 
 ### Sample JavaScript File
 
