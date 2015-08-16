@@ -49,7 +49,7 @@ Docs: http://www.jshint.com/docs/
 
 Install the **jshint** node.js module:
 ```
-npm intstall jshint -g
+npm install jshint -g
 ```
 
 Run the command:
